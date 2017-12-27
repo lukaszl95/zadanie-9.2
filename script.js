@@ -4,6 +4,6 @@ var allNames = femaleNames.concat(maleNames);
 console.log(allNames);
 var newName = 'Marian';
 if (allNames.indexOf(newName) === -1) {
-	var addName = allNames.push(newName);
+	allNames.push(newName);
 }
-console.log(addName);
+console.log(allNames);
